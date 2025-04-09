@@ -91,7 +91,7 @@ nav li a{
     font-size: 85px;
 }
 .banner-profile{
-    width: 550px;
+    width: 650px;
 }
 
 /* Main styles */
@@ -194,6 +194,6 @@ footer textarea{
     border: none;
 }
 
-img{
+.image{
     padding: 10px;
 }
