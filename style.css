@@ -209,3 +209,134 @@ footer input[type="text"], footer input[type="email"], footer textarea{
         width: calc(100% - 40px);
     }
 }
+
+/*
+RESPONSIVE DESIGN
+=================================*/
+
+/* Small devices (Mobile: max-width 576px) */
+@media screen and (max-width: 576px) {
+    nav {
+        flex-direction: column;
+        margin: 0 20px;
+    }
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 0 20px;
+        text-align: center;
+    }
+    .banner-profile {
+        width: 80%;
+    }
+    .banner-content {
+        max-width: 100%;
+    }
+    .banner-title {
+        font-size: 45px;
+    }
+    .banner-greetings {
+        font-size: 25px;
+    }
+
+    .about {
+        padding: 50px 20px;
+    }
+    .about-items {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .skills-container {
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .resume-container {
+        flex-direction: column;
+        margin: 0 20px;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 50px 20px;
+        gap: 40px;
+    }
+    .footer-column {
+        width: 100%;
+    }
+
+    footer input[type="text"], 
+    footer input[type="email"], 
+    footer textarea {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .btn-primary {
+        width: 100%;
+        padding: 15px;
+        font-size: 18px;
+    }
+}
+
+/* Medium devices (Tablet: 577px - 992px) */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    nav {
+        margin: 0 50px;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 0 50px;
+        text-align: center;
+    }
+    .banner-profile {
+        width: 60%;
+    }
+    .banner-content {
+        max-width: 90%;
+    }
+    .banner-title {
+        font-size: 60px;
+    }
+
+    .about {
+        padding: 80px 60px;
+    }
+    .about-items {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .skills-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 40px;
+    }
+    .skill {
+        width: 45%;
+    }
+
+    .resume-container {
+        flex-direction: column;
+        margin: 0 60px;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 80px 60px;
+        gap: 60px;
+    }
+    .footer-column {
+        width: 100%;
+    }
+}
+
